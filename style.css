@@ -1,0 +1,22 @@
+.mother div{
+     margin-bottom: 1%;
+     background-color: green;
+     border-radius: 12px;
+}
+
+
+
+
+.personality{ 
+    display: flex
+}
+
+.personality img{
+    border-radius: 12px;
+}
+@media (max-width: 937px){
+  .mother div{
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+  }}
